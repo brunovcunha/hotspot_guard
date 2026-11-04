@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "br.com.grupobomjesus.hotspotguard.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\TI\\Documents\\brunov\\TabA8HotspotGuard\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "9,1",
+                        "startColumns": "4,4",
+                        "startOffsets": "470,16",
+                        "endLines": "9,8",
+                        "endColumns": "109,12",
+                        "endOffsets": "575,465"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,165",
+                        "endLines": "2,10",
+                        "endColumns": "109,12",
+                        "endOffsets": "160,614"
+                    }
+                }
+            ]
+        }
+    ]
+}
