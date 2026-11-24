@@ -14,60 +14,61 @@
 12-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:3:9-36
 13        android:debuggable="true"
 14        android:extractNativeLibs="false"
-15        android:label="Hotspot Guard"
-15-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:4:9-38
-16        android:theme="@style/AppTheme" >
-16-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:5:9-40
-17        <activity
-17-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:6:9-109
-18            android:name="br.com.grupobomjesus.hotspotguard.LockActivity"
-18-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:6:19-47
-19            android:excludeFromRecents="true"
-19-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:6:73-106
-20            android:exported="false" />
-20-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:6:48-72
-21        <activity
-21-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:7:9-12:20
-22            android:name="br.com.grupobomjesus.hotspotguard.MainActivity"
-22-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:7:19-47
-23            android:exported="true" >
-23-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:7:48-71
-24            <intent-filter>
-24-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:8:13-11:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:9:17-69
-25-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:9:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:10:17-77
-27-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:10:27-74
-28            </intent-filter>
-29        </activity>
-30
-31        <service
-31-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:13:9-20:19
-32            android:name="br.com.grupobomjesus.hotspotguard.SettingsGuardService"
-32-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:14:13-49
-33            android:exported="true"
-33-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:16:13-36
-34            android:label="Hotspot Guard - proteção das Configurações"
-34-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:17:13-71
-35            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
-35-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:15:13-79
-36            <intent-filter>
-36-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:18:13-119
-37                <action android:name="android.accessibilityservice.AccessibilityService" />
-37-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:18:28-103
-37-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:18:36-100
-38            </intent-filter>
-39
-40            <meta-data
-40-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:19:13-123
-41                android:name="android.accessibilityservice"
-41-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:19:24-67
-42                android:resource="@xml/accessibility_service_config" />
-42-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:19:68-120
-43        </service>
-44    </application>
-45
-46</manifest>
+15        android:label="@string/app_name"
+15-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:4:9-41
+16        android:testOnly="true"
+17        android:theme="@style/AppTheme" >
+17-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:5:9-40
+18        <activity
+18-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:6:9-109
+19            android:name="br.com.grupobomjesus.hotspotguard.LockActivity"
+19-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:6:19-47
+20            android:excludeFromRecents="true"
+20-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:6:73-106
+21            android:exported="false" />
+21-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:6:48-72
+22        <activity
+22-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:7:9-12:20
+23            android:name="br.com.grupobomjesus.hotspotguard.MainActivity"
+23-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:7:19-47
+24            android:exported="true" >
+24-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:7:48-71
+25            <intent-filter>
+25-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:8:13-11:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:9:17-69
+26-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:9:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:10:17-77
+28-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:10:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <service
+32-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:13:9-20:19
+33            android:name="br.com.grupobomjesus.hotspotguard.SettingsGuardService"
+33-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:14:13-49
+34            android:exported="true"
+34-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:16:13-36
+35            android:label="@string/accessibility_service_label"
+35-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:17:13-64
+36            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+36-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:15:13-79
+37            <intent-filter>
+37-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:18:13-119
+38                <action android:name="android.accessibilityservice.AccessibilityService" />
+38-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:18:28-103
+38-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:18:36-100
+39            </intent-filter>
+40
+41            <meta-data
+41-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:19:13-123
+42                android:name="android.accessibilityservice"
+42-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:19:24-67
+43                android:resource="@xml/accessibility_service_config" />
+43-->C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:19:68-120
+44        </service>
+45    </application>
+46
+47</manifest>

@@ -1,0 +1,31 @@
+-- Estrutura inicial do aplicativo
+
+app/src/main/java/br/com/grupobomjesus/hotspotguard/
+
+├── MainActivity.java
+├── LockActivity.java
+│
+├── appcontrol/
+│   ├── AppInfo.java
+│   ├── AppRepository.java
+│   ├── AppControlActivity.java
+│   └── AppPolicy.java
+│
+├── launcher/
+│   ├── HomeActivity.java
+│   └── AppLauncherAdapter.java
+│
+├── monitoring/
+│   └── UsageMonitor.java
+│
+├── protection/
+│   ├── DeviceAdminReceiver.java
+│   ├── ProtectionManager.java
+│   └── BootReceiver.java
+│
+├── hotspot/
+│   └── HotspotProtectionManager.java
+│
+└── data/
+    ├── PreferencesManager.java
+    └── DatabaseManager.java

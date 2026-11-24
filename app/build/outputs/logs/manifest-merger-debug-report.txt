@@ -18,7 +18,7 @@ INJECTED from C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\Androi
 	android:extractNativeLibs
 		INJECTED from C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml
 	android:label
-		ADDED from C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:4:9-38
+		ADDED from C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:4:9-41
 	android:allowBackup
 		ADDED from C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:3:9-36
 	android:theme
@@ -50,7 +50,7 @@ ADDED from C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidMa
 service#br.com.grupobomjesus.hotspotguard.SettingsGuardService
 ADDED from C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:13:9-20:19
 	android:label
-		ADDED from C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:17:13-71
+		ADDED from C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:17:13-64
 	android:exported
 		ADDED from C:\Users\TI\Documents\brunov\TabA8HotspotGuard\app\src\main\AndroidManifest.xml:16:13-36
 	android:permission

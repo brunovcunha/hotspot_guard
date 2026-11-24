@@ -1,5 +1,32 @@
 R_DEF: Internal format may change without notice
 local
 string accessibility_description
+string accessibility_service_label
+string app_name
+string btn_activate_service
+string btn_back
+string btn_cancel
+string btn_change_pin
+string btn_check_config
+string btn_create_admin_pin
+string btn_save
+string btn_unlock_one_minute
+string dialog_title_change_pin
+string dialog_title_setup_admin
+string hint_confirm_pin
+string hint_create_pin
+string hint_current_pin
+string hint_new_pin
+string lock_message
+string lock_pin_hint
+string lock_title
+string main_info
+string msg_create_pin_first
+string msg_current_pin_incorrect
+string msg_pin_configured
+string msg_pin_incorrect
+string msg_pin_min_length
+string msg_pin_saved
+string msg_pins_dont_match
 style AppTheme
 xml accessibility_service_config

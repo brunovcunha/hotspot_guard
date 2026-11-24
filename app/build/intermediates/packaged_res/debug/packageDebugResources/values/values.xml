@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accessibility_description">Protege a abertura do aplicativo Configurações com PIN.</string>
+    <string name="accessibility_service_label">Hotspot Guard - proteção das Configurações</string>
+    <string name="app_name">Hotspot Guard</string>
+    <string name="btn_activate_service">Ativar serviço de proteção</string>
+    <string name="btn_back">Voltar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_change_pin">Alterar PIN</string>
+    <string name="btn_check_config">Verificar configuração</string>
+    <string name="btn_create_admin_pin">Criar PIN do administrador</string>
+    <string name="btn_save">Salvar</string>
+    <string name="btn_unlock_one_minute">Desbloquear por 1 minuto</string>
+    <string name="dialog_title_change_pin">Alterar PIN</string>
+    <string name="dialog_title_setup_admin">Configurar administrador</string>
+    <string name="hint_confirm_pin">Confirme o PIN</string>
+    <string name="hint_create_pin">Crie um PIN numérico (6 dígitos ou mais)</string>
+    <string name="hint_current_pin">PIN atual</string>
+    <string name="hint_new_pin">Novo PIN (6 dígitos ou mais)</string>
+    <string name="lock_message">Informe o PIN do administrador para acessar as Configurações.</string>
+    <string name="lock_pin_hint">PIN</string>
+    <string name="lock_title">Acesso protegido</string>
+    <string name="main_info">Proteção por PIN para a abertura do aplicativo Configurações.\n\nA proteção depende do serviço de Acessibilidade estar ativado.</string>
+    <string name="msg_create_pin_first">Crie um PIN primeiro.</string>
+    <string name="msg_current_pin_incorrect">PIN atual incorreto.</string>
+    <string name="msg_pin_configured">PIN configurado. Confira se o serviço está ativado.</string>
+    <string name="msg_pin_incorrect">PIN incorreto.</string>
+    <string name="msg_pin_min_length">O PIN deve ter pelo menos 6 dígitos.</string>
+    <string name="msg_pin_saved">PIN salvo.</string>
+    <string name="msg_pins_dont_match">Os PINs não conferem.</string>
     <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
         <item name="android:fontFamily">sans</item>
         <item name="android:colorAccent">#1565C0</item>
